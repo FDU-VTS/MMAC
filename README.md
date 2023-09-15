@@ -15,3 +15,13 @@ cd MMAC_task1
 ```
 python main.py --challenge 1 --model resnet50 --visname resnet50
 ```
+## Task 2. Segmentation of Myopic Maculopathy Plus Lesions
+
+```
+cd MMAC_task2
+```
+**train segmentation model**
+```
+bash train.sh
+```
+Ensemble appoaches in MMAC_task2/ensemble_model.py
